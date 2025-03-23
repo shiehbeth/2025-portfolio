@@ -1,0 +1,70 @@
+/* [project]/src/once-ui/components/Tag.module.scss.module.css [app-client] (css) */
+.Tag-module-scss-module__xpQQYq__tag {
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__brand {
+  border-color: var(--brand-border-strong);
+  background-color: var(--brand-background-strong);
+  color: var(--brand-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__accent {
+  border-color: var(--accent-border-strong);
+  background-color: var(--accent-background-strong);
+  color: var(--accent-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__neutral {
+  border-color: var(--neutral-border-medium);
+  background-color: var(--surface-background);
+  color: var(--neutral-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__warning {
+  border-color: var(--warning-border-strong);
+  background-color: var(--warning-background-strong);
+  color: var(--warning-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__danger {
+  border-color: var(--danger-border-strong);
+  background-color: var(--danger-background-strong);
+  color: var(--danger-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__success {
+  border-color: var(--success-border-strong);
+  background-color: var(--success-background-strong);
+  color: var(--success-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__info {
+  border-color: var(--info-border-strong);
+  background-color: var(--info-background-strong);
+  color: var(--info-on-background-medium);
+}
+
+.Tag-module-scss-module__xpQQYq__tag.Tag-module-scss-module__xpQQYq__gradient {
+  border-color: var(--brand-alpha-medium);
+  background-image: linear-gradient(45deg, var(--brand-background-strong), var(--accent-background-strong));
+  color: var(--brand-on-background-medium);
+  background-clip: padding-box;
+}
+
+.Tag-module-scss-module__xpQQYq__s {
+  padding: 0 var(--static-space-4);
+}
+
+.Tag-module-scss-module__xpQQYq__m {
+  padding: var(--static-space-2) var(--static-space-8);
+}
+
+.Tag-module-scss-module__xpQQYq__l {
+  padding: var(--static-space-4) var(--static-space-12);
+}
+
+/*# sourceMappingURL=src_once-ui_components_Tag_module_scss_module_b52d8e.css.map*/

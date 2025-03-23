@@ -1,0 +1,17 @@
+/* [project]/src/once-ui/components/Logo.module.scss.module.css [app-client] (css) */
+.Logo-module-scss-module__i2LYIW__type {
+  content: var(--type);
+}
+
+.Logo-module-scss-module__i2LYIW__icon {
+  content: var(--icon);
+}
+
+.Logo-module-scss-module__i2LYIW__type, .Logo-module-scss-module__i2LYIW__icon {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  display: block;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Logo_module_scss_module_b52d8e.css.map*/

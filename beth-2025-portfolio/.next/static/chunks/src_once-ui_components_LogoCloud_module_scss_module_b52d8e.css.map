@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/LogoCloud.module.scss.module.css"],"sourcesContent":[".logo{animation:fadeInOut 5s ease-out both;will-change:opacity,filter,transform;transform-origin:center}@keyframes fadeInOut{0%{opacity:0;filter:blur(1.5rem);transform:scale(0.2)}4%,96%{opacity:1;filter:blur(0);transform:scale(1)}100%{opacity:0;filter:blur(1.5rem);transform:scale(0.2)}}"],"names":[],"mappings":"AAAA;;;;;;AAAwG"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

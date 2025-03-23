@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/NavIcon.module.scss.module.css"],"sourcesContent":[".line{background-color:var(--neutral-on-background-strong);height:1px;width:var(--static-space-24);transition:transform .3s ease;position:absolute;left:50%;top:50%}.line:first-child{transform:translateX(-50%) translateY(calc(-1 * var(--static-space-4)))}.line:last-child{transform:translateX(-50%) translateY(var(--static-space-4))}.active:first-child{transform:translateX(-50%) translateY(0) rotate(45deg)}.active:last-child{transform:translateX(-50%) translateY(0) rotate(-45deg)}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAAoK;;;;AAA0F;;;;AAA8E;;;;AAA2E"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

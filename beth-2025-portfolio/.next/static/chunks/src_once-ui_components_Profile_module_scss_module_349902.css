@@ -1,0 +1,20 @@
+/* [project]/src/once-ui/components/Profile.module.scss.module.css [app-client] (css) */
+.Profile-module-scss-module__hXuM5G__profile-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile-module-scss-module__hXuM5G__profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #8d7b68;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+}
+
+
+/*# sourceMappingURL=src_once-ui_components_Profile_module_scss_module_349902.css.map*/
