@@ -439,9 +439,9 @@ export default function Home() {
                         padding="40"
                         gap="8"
                         direction="column"
-                        background="brand-background-medium"
+                        background="neutral-weak"
                         borderRight={undefined}
-                        border="s"
+                        // border="s"
                         radius="m"
                       >
 
@@ -495,9 +495,9 @@ export default function Home() {
                         padding="40"
                         gap="8"
                         direction="column"
-                        background="brand-background-medium"
+                        background="neutral-weak"
                         borderRight={undefined}
-                        border="s"
+                        // border="s"
                         radius="m"
                       >
                         <SmartImage
@@ -548,9 +548,9 @@ export default function Home() {
                         padding="40"
                         gap="8"
                         direction="column"
-                        background="brand-background-medium"
+                        background="neutral-weak"
                         borderRight={undefined}
-                        border="s"
+                        // border="s"
                         radius="m"
                       >
                         <SmartImage
@@ -597,9 +597,9 @@ export default function Home() {
                         padding="40"
                         gap="8"
                         direction="column"
-                        background="brand-background-medium"
+                        background="neutral-weak"
                         borderRight={undefined}
-                        border="s"
+                        // border="s"
                         radius="m"
                       >
 
