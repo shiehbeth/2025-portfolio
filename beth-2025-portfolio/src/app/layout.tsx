@@ -117,7 +117,7 @@ export default function RootLayout({
       data-solid-style={style.solidStyle}
       data-surface={style.surface}
       data-transition={style.transition}
-      // data-scaling={style.scaling}
+      data-scaling={style.scaling}
       className={classNames(
         primary.variable,
         code.variable,

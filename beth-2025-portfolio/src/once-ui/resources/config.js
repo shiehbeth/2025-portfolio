@@ -11,6 +11,7 @@ const style = {
   solidStyle: "plastic",
   surface: "filled",
   transition: "all",
+  scaling: "1"
 }
 
 // default metadata
