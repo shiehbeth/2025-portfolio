@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/TiltFx.module.scss.module.css"],"sourcesContent":[".tiltFx{transition:transform .3s ease-out}@media(hover: hover){.tiltFx{perspective:1000px;transform-style:preserve-3d;will-change:transform}}"],"names":[],"mappings":"AAAA;;;;AAA0C;EAAqB"}},
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

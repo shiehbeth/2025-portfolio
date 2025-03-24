@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/Profile.module.scss.module.css"],"sourcesContent":[".profile-photo-container{display:flex;justify-content:center;align-items:center}.profile-photo{width:200px;height:200px;border-radius:50%;border:2px solid #8d7b68;-o-object-fit:cover;object-fit:cover;-o-object-position:top;object-position:top}"],"names":[],"mappings":"AAAA;;;;;;AAAgF"}},
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
