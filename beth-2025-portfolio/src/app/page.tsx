@@ -976,7 +976,7 @@ export default function Home() {
                 </Row>
               </Card>
             </SmartLink>
-            <SmartLink unstyled fillWidth target="_blank" href="mailto:shiehbeth@gmail.com">
+            {/* <SmartLink unstyled fillWidth target="_blank" href="mailto:shiehbeth@gmail.com">
               <Card
                 fillWidth
                 padding="40"
@@ -994,7 +994,7 @@ export default function Home() {
                   <Icon size="s" name="arrowUpRight" />
                 </Row>
               </Card>
-            </SmartLink>
+            </SmartLink> */}
           </Row>
           <Row maxWidth="32" borderTop="neutral-alpha-weak" borderBottom="neutral-medium"></Row>
         </Row>

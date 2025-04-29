@@ -93,7 +93,7 @@ const schemaData = {
   logo: schema.logo,
   name: schema.name,
   description: schema.description,
-  email: schema.email,
+  // email: schema.email,
   sameAs: Object.values(social).filter(Boolean),
 };
 
