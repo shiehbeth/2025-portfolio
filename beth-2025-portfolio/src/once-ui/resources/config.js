@@ -1,4 +1,4 @@
-const baseURL = "demo.once-ui.com";
+const baseURL = "https://www.bethshieh.com";
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {
@@ -26,17 +26,16 @@ const og = {
   title: "Beth Shieh Portfolio",
   description: "Beth Shieh's Personal Portfolio",
   type: "website",
-  image: "../app/favicon.ico"
+  image: "../public/images/bs_logo.png"
 };
 
 // default schema data
-// const schema = {
-//   logo: "",
-//   type: "Organization",
-//   name: "One UI",
-//   description: "Once UI is an open-source design system and component library for Next.js.",
-//   email: "",
-// };
+const schema = {
+  logo: "../public/images/bs_logo.png",
+  type: "Person",
+  name: "Beth Shieh",
+  description: meta.description,
+};
 
 // social links
 const social = {
