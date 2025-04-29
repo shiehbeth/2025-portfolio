@@ -23,26 +23,24 @@ const meta = {
 
 // default open graph data
 const og = {
-  title: "Once UI for Next.js",
-  description: "We let designers code and developers design.",
+  title: "Beth Shieh Portfolio",
+  description: "Beth Shieh's Personal Portfolio",
   type: "website",
-  image: "/images/cover.jpg"
+  image: "../app/favicon.ico"
 };
 
 // default schema data
-const schema = {
-  logo: "",
-  type: "Organization",
-  name: "One UI",
-  description: "Once UI is an open-source design system and component library for Next.js.",
-  email: "",
-};
+// const schema = {
+//   logo: "",
+//   type: "Organization",
+//   name: "One UI",
+//   description: "Once UI is an open-source design system and component library for Next.js.",
+//   email: "",
+// };
 
 // social links
 const social = {
-  twitter: "https://www.twitter.com/_onceui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  linkedin: "https://www.linkedin.com/in/bethshieh",
 };
 
 export { baseURL, style, meta, og, schema, social };
