@@ -976,25 +976,6 @@ export default function Home() {
                 </Row>
               </Card>
             </SmartLink>
-            {/* <SmartLink unstyled fillWidth target="_blank" href="mailto:shiehbeth@gmail.com">
-              <Card
-                fillWidth
-                padding="40"
-                gap="8"
-                direction="column"
-                background={undefined}
-                borderRight={undefined}
-                border={undefined}
-                radius={undefined}
-              >
-                <Row fillWidth center gap="12">
-                  <Text variant="body-strong-m" onBackground="neutral-strong">
-                    Email
-                  </Text>
-                  <Icon size="s" name="arrowUpRight" />
-                </Row>
-              </Card>
-            </SmartLink> */}
           </Row>
           <Row maxWidth="32" borderTop="neutral-alpha-weak" borderBottom="neutral-medium"></Row>
         </Row>
@@ -1030,7 +1011,7 @@ export default function Home() {
             gap="16"
           >
             <Text size="m">
-              <Text onBackground="neutral-weak">Template from Once UI</Text>
+              <Text onBackground="neutral-weak">Once UI</Text>
             </Text>
           </Column>
         </Row>
