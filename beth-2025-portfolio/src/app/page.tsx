@@ -244,6 +244,7 @@ export default function Home() {
             Relevant employment experiences.
           </Text>
           <Row
+            className="experience-card-row"
             paddingX="32"
             fillWidth
             paddingY="160"
@@ -284,11 +285,13 @@ export default function Home() {
               radius="xl"
             >
               <TiltFx
+                className="tilt-mobile-expand"
                 aspectRatio="16 / 9"
                 fillWidth
                 radius="xl"
                 border="accent-alpha-weak"
-                overflow="hidden"
+                // overflow="hidden"
+                // style={{ overflow: 'visible' }}
               >
                 <HoloFx fill>
                   <Background
@@ -311,6 +314,10 @@ export default function Home() {
                       padding="24"
                       gap="12"
                       onSolid="neutral-strong"
+                      style={{
+                        minHeight: 'fit-content',
+                        height: 'auto',
+                      }}
                     >
                       <Text variant="body-default-xl"><b>Software Development Intern</b> @ Amazon Bedrock</Text>
                       <Row
@@ -319,12 +326,14 @@ export default function Home() {
                         vertical="end"
                         paddingRight="16"
                       >
-                        <Column gap="4">
+                        <Column
+                          gap="4"
+                          className="mobile-hide">
                           <Row>
                             <Text variant="body-default-xs">May 2025 -  Aug 2025</Text>
                           </Row>
                           <Line></Line>
-                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordWrap: "break-word" }} >•	Details coming soon</Text>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Details coming soon</Text>
 
                         </Column>
                       </Row>
@@ -343,6 +352,7 @@ export default function Home() {
               radius="xl"
             >
               <TiltFx
+                className="tilt-mobile-expand"
                 aspectRatio="16 / 9"
                 fillWidth
                 radius="xl"
@@ -373,6 +383,7 @@ export default function Home() {
                     >
                       <Text variant="body-default-xl"><b>Teaching Assistant</b> @ Northeastern University</Text>
                       <Row
+                        className="mobile-hide"
                         fillWidth
                         horizontal="space-between"
                         vertical="end"
@@ -409,6 +420,7 @@ export default function Home() {
               radius="xl"
               border="neutral-alpha-strong"
               overflow="hidden"
+              mobileDirection="column"
             >
               <Column fillWidth horizontal="center" gap="20" padding="32" position="relative">
                 <Background
@@ -429,7 +441,7 @@ export default function Home() {
                   <Row paddingY="24" onBackground="neutral-weak" fillWidth gap="24" vertical="center">
                     <Line />/<Line />
                   </Row>
-                  <Row paddingY="24" onBackground="neutral-weak" fillWidth gap="24" vertical="center">
+                  <Row paddingY="24" onBackground="neutral-weak" fillWidth gap="24" vertical="center" mobileDirection="column">
 
 
                     {/* start card 1*/}
@@ -539,7 +551,7 @@ export default function Home() {
                       </Card>
                     </SmartLink>
                   </Row>
-                  <Row paddingY="24" onBackground="neutral-weak" fillWidth gap="24" vertical="center">
+                  <Row paddingY="24" onBackground="neutral-weak" fillWidth gap="24" vertical="center" mobileDirection="column">
                     {/* start card 3*/}
 
                     <SmartLink unstyled fillWidth target="_blank" href="https://github.com/ShirleyFang/ActIve">
@@ -736,7 +748,7 @@ export default function Home() {
                         vertical="end"
                         paddingRight="16"
                       >
-                        <Column gap="4">
+                        <Column gap="4" className="mobile-hide">
                           <Row>
                             <Text variant="body-default-xs">Jan 2024 -  Present</Text>
                           </Row>
@@ -794,7 +806,7 @@ export default function Home() {
                         vertical="end"
                         paddingRight="16"
                       >
-                        <Column gap="4">
+                        <Column gap="4" className="mobile-hide">
                           <Row>
                             <Text variant="body-default-xs">Aug 2024 - Present</Text>
                           </Row>

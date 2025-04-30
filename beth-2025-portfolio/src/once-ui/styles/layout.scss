@@ -58,7 +58,7 @@
     .l-flex-column-reverse {
         flex-direction: column-reverse !important;
     }
-    
+
     .l-flex-row-reverse {
         flex-direction: row-reverse !important;
     }
@@ -84,7 +84,7 @@
     .m-flex-column-reverse {
         flex-direction: column-reverse !important;
     }
-    
+
     .m-flex-row-reverse {
         flex-direction: row-reverse !important;
     }
@@ -110,8 +110,23 @@
     .s-flex-column-reverse {
         flex-direction: column-reverse !important;
     }
-    
+
     .s-flex-row-reverse {
         flex-direction: row-reverse !important;
     }
+
+    @media (max-width: 768px) {
+        .experience-card-row {
+            padding-top: 64px !important;
+            padding-bottom: 64px !important;
+        }
+        .tilt-mobile-expand {
+            aspect-ratio: unset !important;
+            min-height: 220px;
+        }
+        .mobile-hide {
+            display: none !important;
+        }
+    }
+
 }
