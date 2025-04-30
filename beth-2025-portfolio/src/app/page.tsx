@@ -324,7 +324,7 @@ export default function Home() {
                             <Text variant="body-default-xs">May 2025 -  Aug 2025</Text>
                           </Row>
                           <Line></Line>
-                          <Text variant="body-default-xs">•	Details coming soon</Text>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordWrap: "break-word" }} >•	Details coming soon</Text>
 
                         </Column>
                       </Row>
