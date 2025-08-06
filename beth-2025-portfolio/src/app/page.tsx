@@ -230,7 +230,7 @@ export default function Home() {
               id="downloadResume"
               target="_blank"
               label="Resume"
-              href="https://drive.google.com/file/d/1BSIDXPPzXJEBkIzy_6BpFFoSYgSQhQiO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZF1DeBMcqU45NCHBXO7FySFGhm4mj_TC/view?usp=sharing"
               variant="secondary"
               arrowIcon
             />
@@ -333,7 +333,7 @@ export default function Home() {
                             <Text variant="body-default-xs">May 2025 -  Aug 2025</Text>
                           </Row>
                           <Line></Line>
-                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Details coming soon</Text>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Implemented an agentic AI ticket diagnostic chat interface using LangChain’s ReAct framework and AWS Bedrock, reducing manual diagnostic time by 82% through LLM powered ticket diagnostics.</Text>
 
                         </Column>
                       </Row>
