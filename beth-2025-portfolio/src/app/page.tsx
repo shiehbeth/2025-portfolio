@@ -403,6 +403,107 @@ export default function Home() {
               </TiltFx>
             </Row>
           </Row>
+          <Row
+            className="experience-card-row"
+            paddingX="32"
+            fillWidth
+            paddingY="160"
+            gap="64"
+            position="relative"
+            mobileDirection="column"
+            vertical="center"
+            marginY="32"
+            background="overlay"
+            radius="xl"
+            border="neutral-alpha-strong"
+            overflow="hidden"
+          >
+            <Background
+              style={{ left: "-1px" }}
+              borderTop="neutral-alpha-medium"
+              mask={{
+                x: 0,
+                y: 50,
+                radius: 100,
+              }}
+              position="absolute"
+              grid={{
+                display: true,
+                opacity: 100,
+                width: "10%",
+                color: "neutral-alpha-medium",
+                height: "1.25%",
+              }}
+            />
+            <Row
+              position="relative"
+              shadow="xl"
+              fillWidth
+              border="neutral-alpha-medium"
+              borderStyle="dashed"
+              background="page"
+              radius="xl"
+            >
+              <TiltFx
+                className="tilt-mobile-expand"
+                aspectRatio="16 / 9"
+                fillWidth
+                radius="xl"
+                border="accent-alpha-weak"
+                // overflow="hidden"
+                // style={{ overflow: 'visible' }}
+              >
+                <HoloFx fill>
+                  <Background
+                    fill
+                    position="absolute"
+                    gradient={{
+                      display: true,
+                      tilt: -45,
+                      height: 150,
+                      width: 100,
+                      x: 50,
+                      y: 10,
+                      colorStart: "brand-solid-strong",
+                      colorEnd: "accent-solid-weak",
+                    }}
+                  >
+                    <Column
+                      fill
+                      position="absolute"
+                      padding="24"
+                      gap="12"
+                      onSolid="neutral-strong"
+                      style={{
+                        minHeight: 'fit-content',
+                        height: 'auto',
+                      }}
+                    >
+                      <Text variant="body-default-xl"><b>Software Development Intern</b> @ Amazon Bedrock</Text>
+                      <Row
+                        fillWidth
+                        horizontal="space-between"
+                        vertical="end"
+                        paddingRight="16"
+                      >
+                        <Column
+                          gap="4"
+                          className="mobile-hide">
+                          <Row>
+                            <Text variant="body-default-xs">May 2025 -  Aug 2025</Text>
+                          </Row>
+                          <Line></Line>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Implemented an agentic AI ticket diagnostic chat interface using LangChain’s ReAct framework and AWS Bedrock, reducing manual diagnostic time by 82% through LLM powered ticket diagnostics.</Text>
+
+                        </Column>
+                      </Row>
+                    </Column>
+                  </Background>
+                </HoloFx>
+              </TiltFx>
+            </Row>
+
+          </Row>
           </Column>
 
           {/* Start Project Section */}
