@@ -403,73 +403,6 @@ export default function Home() {
               </TiltFx>
             </Row>
           </Row>
-            <Row
-              position="relative"
-              shadow="xl"
-              fillWidth
-              border="neutral-alpha-medium"
-              borderStyle="dashed"
-              background="page"
-              radius="xl"
-            >
-              <TiltFx
-                className="tilt-mobile-expand"
-                aspectRatio="16 / 9"
-                fillWidth
-                radius="xl"
-                border="accent-alpha-weak"
-                // overflow="hidden"
-                // style={{ overflow: 'visible' }}
-              >
-                <HoloFx fill>
-                  <Background
-                    fill
-                    position="absolute"
-                    gradient={{
-                      display: true,
-                      tilt: -45,
-                      height: 150,
-                      width: 100,
-                      x: 50,
-                      y: 10,
-                      colorStart: "brand-solid-strong",
-                      colorEnd: "accent-solid-weak",
-                    }}
-                  >
-                    <Column
-                      fill
-                      position="absolute"
-                      padding="24"
-                      gap="12"
-                      onSolid="neutral-strong"
-                      style={{
-                        minHeight: 'fit-content',
-                        height: 'auto',
-                      }}
-                    >
-                      <Text variant="body-default-xl"><b>Khoury Research Apprentice</b> @ TEA Lab</Text>
-                      <Row
-                        fillWidth
-                        horizontal="space-between"
-                        vertical="end"
-                        paddingRight="16"
-                      >
-                        <Column
-                          gap="4"
-                          className="mobile-hide">
-                          <Row>
-                            <Text variant="body-default-xs">Jan 2026 - Present</Text>
-                          </Row>
-                          <Line></Line>
-                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Creating a tablet based application for children with CVI to support accessible learning.</Text>
-
-                        </Column>
-                      </Row>
-                    </Column>
-                  </Background>
-                </HoloFx>
-              </TiltFx>
-            </Row>
           </Column>
 
           {/* Start Project Section */}
@@ -727,6 +660,176 @@ export default function Home() {
             </Row>
           </Column>
         </Column>
+
+        {/* Research Projects */}
+        <Column fillWidth paddingX="32" gap="12" horizontal="center" position="relative">
+          <Heading as="h2" variant="display-default-m">
+            Research
+          </Heading>
+          <Text marginBottom="32" align="center" onBackground="neutral-weak">
+            Research project experiences.
+          </Text>
+          <Row
+            className="experience-card-row"
+            paddingX="32"
+            fillWidth
+            paddingY="160"
+            gap="64"
+            position="relative"
+            mobileDirection="column"
+            vertical="center"
+            marginY="32"
+            background="overlay"
+            radius="xl"
+            border="neutral-alpha-strong"
+            overflow="hidden"
+          >
+            <Background
+              style={{ left: "-1px" }}
+              borderTop="neutral-alpha-medium"
+              mask={{
+                x: 0,
+                y: 50,
+                radius: 100,
+              }}
+              position="absolute"
+              grid={{
+                display: true,
+                opacity: 100,
+                width: "10%",
+                color: "neutral-alpha-medium",
+                height: "1.25%",
+              }}
+            />
+            <Row
+              position="relative"
+              shadow="xl"
+              fillWidth
+              border="neutral-alpha-medium"
+              borderStyle="dashed"
+              background="page"
+              radius="xl"
+            >
+              <TiltFx
+                className="tilt-mobile-expand"
+                aspectRatio="16 / 9"
+                fillWidth
+                radius="xl"
+                border="accent-alpha-weak"
+                // overflow="hidden"
+                // style={{ overflow: 'visible' }}
+              >
+                <HoloFx fill>
+                  <Background
+                    fill
+                    position="absolute"
+                    gradient={{
+                      display: true,
+                      tilt: -45,
+                      height: 150,
+                      width: 100,
+                      x: 50,
+                      y: 10,
+                      colorStart: "brand-solid-strong",
+                      colorEnd: "accent-solid-weak",
+                    }}
+                  >
+                    <Column
+                      fill
+                      position="absolute"
+                      padding="24"
+                      gap="12"
+                      onSolid="neutral-strong"
+                      style={{
+                        minHeight: 'fit-content',
+                        height: 'auto',
+                      }}
+                    >
+                      <Text variant="body-default-xl"><b>Khoury Research Apprentice</b> @ TEA Lab</Text>
+                      <Row
+                        fillWidth
+                        horizontal="space-between"
+                        vertical="end"
+                        paddingRight="16"
+                      >
+                        <Column
+                          gap="4"
+                          className="mobile-hide">
+                          <Row>
+                            <Text variant="body-default-xs">Jan 2026 - Present</Text>
+                          </Row>
+                          <Line></Line>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	 Building a tablet based application for children with CVI to support accessible learning.</Text>
+
+                        </Column>
+                      </Row>
+                    </Column>
+                  </Background>
+                </HoloFx>
+              </TiltFx>
+            </Row>
+            <Row
+              position="relative"
+              shadow="xl"
+              fillWidth
+              border="neutral-alpha-medium"
+              borderStyle="dashed"
+              background="page"
+              radius="xl"
+            >
+              <TiltFx
+                className="tilt-mobile-expand"
+                aspectRatio="16 / 9"
+                fillWidth
+                radius="xl"
+                border="accent-alpha-weak"
+                overflow="hidden"
+              >
+                <HoloFx fill>
+                  <Background
+                    fill
+                    position="absolute"
+                    gradient={{
+                      display: true,
+                      tilt: -45,
+                      height: 150,
+                      width: 100,
+                      x: 50,
+                      y: 10,
+                      colorStart: "brand-solid-strong",
+                      colorEnd: "accent-solid-weak",
+                    }}
+                  >
+                    <Column
+                      fill
+                      position="absolute"
+                      padding="24"
+                      gap="12"
+                      onSolid="neutral-strong"
+                    >
+                      <Text variant="body-default-xl"><b>Seattle Parking Predictor</b> @ Northeastern University</Text>
+                      <Row
+                        className="mobile-hide"
+                        fillWidth
+                        horizontal="space-between"
+                        vertical="end"
+                        paddingRight="16"
+                      >
+                        <Column gap="4">
+                          <Row>
+                            <Text variant="body-default-xs">Aug 2025 - Present</Text>
+                          </Row>
+                          <Line></Line>
+                          <Text variant="body-default-xs">•	Developed a web application that utilizes machine learning to predict Seattle parking availability.</Text>
+                        </Column>
+                      </Row>
+                    </Column>
+                  </Background>
+                </HoloFx>
+              </TiltFx>
+            </Row>
+          </Row>
+          </Column>
 
         {/* Experiences */}
 
