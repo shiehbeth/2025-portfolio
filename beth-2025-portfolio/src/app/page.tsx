@@ -403,38 +403,6 @@ export default function Home() {
               </TiltFx>
             </Row>
           </Row>
-          <Row
-            className="experience-card-row"
-            paddingX="32"
-            fillWidth
-            paddingY="160"
-            gap="64"
-            position="relative"
-            mobileDirection="column"
-            vertical="center"
-            marginY="32"
-            background="overlay"
-            radius="xl"
-            border="neutral-alpha-strong"
-            overflow="hidden"
-          >
-            <Background
-              style={{ left: "-1px" }}
-              borderTop="neutral-alpha-medium"
-              mask={{
-                x: 0,
-                y: 50,
-                radius: 100,
-              }}
-              position="absolute"
-              grid={{
-                display: true,
-                opacity: 100,
-                width: "10%",
-                color: "neutral-alpha-medium",
-                height: "1.25%",
-              }}
-            />
             <Row
               position="relative"
               shadow="xl"
@@ -479,7 +447,7 @@ export default function Home() {
                         height: 'auto',
                       }}
                     >
-                      <Text variant="body-default-xl"><b>Software Development Intern</b> @ Amazon Bedrock</Text>
+                      <Text variant="body-default-xl"><b>Khoury Research Apprentice</b> @ TEA Lab</Text>
                       <Row
                         fillWidth
                         horizontal="space-between"
@@ -490,10 +458,10 @@ export default function Home() {
                           gap="4"
                           className="mobile-hide">
                           <Row>
-                            <Text variant="body-default-xs">May 2025 -  Aug 2025</Text>
+                            <Text variant="body-default-xs">Jan 2026 - Present</Text>
                           </Row>
                           <Line></Line>
-                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Implemented an agentic AI ticket diagnostic chat interface using LangChain’s ReAct framework and AWS Bedrock, reducing manual diagnostic time by 82% through LLM powered ticket diagnostics.</Text>
+                          <Text variant="body-default-xs" style={{ whiteSpace: "normal", wordBreak: "break-word",overflowWrap: "break-word"}} >•	Creating a tablet based application for children with CVI to support accessible learning.</Text>
 
                         </Column>
                       </Row>
@@ -502,8 +470,6 @@ export default function Home() {
                 </HoloFx>
               </TiltFx>
             </Row>
-
-          </Row>
           </Column>
 
           {/* Start Project Section */}
